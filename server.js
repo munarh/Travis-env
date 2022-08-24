@@ -11,3 +11,5 @@ async function main() {
 }
 
 main();
+const python = process.env.FAVORITE_LANG;
+console.log(`My favorite lang is ${python}`);
