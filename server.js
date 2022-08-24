@@ -1,3 +1,4 @@
+const FAVORITE_LANG = process.env.python;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -5,11 +6,11 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    console.log("Microservices rock!");
+    console.log('python rock!');
     await sleep(5000);
   }
 }
 
 main();
-const python = process.env.FAVORITE_LANG;
-console.log(`My favorite lang is ${python}`);
+
+
